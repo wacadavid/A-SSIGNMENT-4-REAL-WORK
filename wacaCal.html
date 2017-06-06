@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <script type="text/javascript" src="wacaCal.js"></script> 
+            <link rel="stylesheet" href="style.css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><style type="text/css">
+<!--
+body,td,th {
+	color: #0000FF;
+}
+body {
+	background-color: #FFFFCC;
+}
+-->
+        </style></head>
+        <body>
+        <div align="center">
+          <p>A simple Calculator designed Using Java Script </p>
+          <table width="466" height="272" border="1">
+            <tr>
+              <td width="456" height="268" bgcolor="#0099FF"><form class="calcForm" name="calculator">
+                <p align="center">
+                  <input type="text" class="calcDisplay" id="display" />
+                </p>
+                <div class="calcRow">
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                  <input type="button" class="calcButton" value="7" onClick="numInput('7')" />
+                  <input type="button" class="calcButton" value="8" onClick="numInput('8')" />
+                  <input type="button" class="calcButton" value="9" onClick="numInput('9')" />
+                  <input type="button" class="calcButton" value="+" onClick="setOperation('add')" />
+                </div>
+                <div class="calcRow">
+                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                   <input type="button" class="calcButton" value="4" onClick="numInput('4')" />
+                  <input type="button" class="calcButton" value="5" onClick="numInput('5')" />
+                  <input type="button" class="calcButton" value="6" onClick="numInput('6')" />
+                  <input type="button" class="calcButton" value="-" onClick="setOperation('subtract')" />
+                </div>
+                <div class="calcRow">
+                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="button" class="calcButton" value="1" onClick="numInput('1')" />
+                  <input type="button" class="calcButton" value="2" onClick="numInput('2')" />
+                  <input type="button" class="calcButton" value="3" onClick="numInput('3')" />
+                  <input type="button" class="calcButton" value="x" onClick="setOperation('multiply')" />
+                </div>
+                <div class="calcRow">
+                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="button" class="calcButton" value="0" onClick="numInput('0')" />
+                  <input type="button" class="calcButton" value="." onClick="insertDecimal('.')" />
+                  <input type="button" class="calcButton" value="C" onClick="clearDisplay()" />
+                  <input type="button" class="calcButton" value="=" onClick="calculate()" />
+                </div>
+              </form></td>
+            </tr>
+                  </table>
+          <p>@<em> This work was developed by waca david and published on the 06 / 06 /2017</em></p>
+        </div>
+    </body>
+</html>
